@@ -116,3 +116,23 @@ a {
     margin-top: 8px;
     width: 144px;
 }
+
+/* Quote Components */
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-message {
+    padding-top: 128px;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-signature {
+    text-align: right;
+    font-weight: 700;
+    font-size: 26px;
+    padding-bottom: 112px;
+}
