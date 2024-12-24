@@ -67,15 +67,18 @@ a {
     margin-bottom: 16px;
 }
 
-.content-button {
+button {
     background-color: #3882F6;
-    border-color: #3882F6;
-    margin-bottom: 0px;
     padding: 6px 28px;
     border-radius: 6px;
     color: #F9FAF8;
     font-size: 18px;
     font-weight: 600;
+}
+
+.content-button {
+    border-color: #3882F6;
+    margin-bottom: 0px;
 }
 
 .content-image {
@@ -100,8 +103,8 @@ a {
 .information-row {
     padding: 0 64px;
     display: flex;
-    justify-content: space-between;
-    gap: 24px;
+    justify-content: center;
+    gap: 48px;
     margin-bottom: 112px;
 }
 
@@ -109,7 +112,7 @@ a {
     border-radius: 16px;
     width: 144px;
     height: 144px;
-    border: solid #3882F6 4px;
+    border: solid #3882F6 3px;
 }
 
 .information-row > li > p {
@@ -121,6 +124,10 @@ a {
 
 .quote {
     background-color: #E5E7EB;
+}
+
+.quote-container {
+    padding: 0 64px;
 }
 
 .quote-message {
@@ -135,4 +142,33 @@ a {
     font-weight: 700;
     font-size: 26px;
     padding-bottom: 112px;
+}
+
+/* Bait Components */
+
+.bait {
+    padding: 112px 15%;
+}
+
+.bait-container {
+    padding: 40px 128px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bait-header {
+    color: #F9FAF8;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+.bait-content {
+    color: #E5E7EB
+}
+
+.bait-button {
+    border-color: #E5E7EB;
 }
