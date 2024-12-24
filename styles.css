@@ -83,3 +83,36 @@ a {
     background-color: azure;
 }
 
+/* Information Components */
+
+.information {
+    color: gray;
+    text-align: center;
+}
+
+.information-header {
+    margin: 48px 0;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information-row {
+    padding: 0 64px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 112px;
+}
+
+.information-row > li > img {
+    border-radius: 16px;
+    width: 144px;
+    height: 144px;
+    border: solid #3882F6 4px;
+}
+
+.information-row > li > p {
+    margin-top: 8px;
+    width: 144px;
+}
