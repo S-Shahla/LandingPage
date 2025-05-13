@@ -74,6 +74,7 @@ button {
     color: #F9FAF8;
     font-size: 18px;
     font-weight: 600;
+    flex: 0 0 126px;
 }
 
 .content-button {
@@ -157,6 +158,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 16px;
 }
 
 .bait-header {
@@ -171,4 +173,17 @@ button {
 
 .bait-button {
     border-color: #E5E7EB;
+}
+
+/* Footer Components */
+
+.footer {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #1F2937;
+}
+
+.footer-copyright {
+    color: #E5E7EB;
 }
